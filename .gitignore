@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Experiment tracking and generated output
+.wandb/
+wandb/
+mlruns/
+outputs/
+evaluation_results/
+generated_tables/
+recomputed_statistics/
+plots/
+
+# Data and model artifacts
+Dataset/
+datasets/
+downloaded_models/
+sota_iqa_baselines/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+
+# Third-party source is cloned locally using third_party/README.md
+model/sota/github/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

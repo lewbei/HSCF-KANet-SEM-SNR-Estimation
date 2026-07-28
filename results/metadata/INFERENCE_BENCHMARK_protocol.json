@@ -1,0 +1,11 @@
+{
+  "gpu": "NVIDIA GeForce RTX 4060",
+  "torch": "2.12.0+cu130",
+  "cuda": "13.0",
+  "warmup": 50,
+  "runs": 200,
+  "input": "1x1x256x256 random tensor",
+  "sync": "torch.cuda.synchronize per iteration",
+  "checkpoint": "Biofilms/seed42",
+  "note": "forward pass only, no image loading; CNN_RF includes rf.predict"
+}

@@ -42,6 +42,25 @@ python3 -m pip install -r requirements.txt
 
 The SOTA wrappers use pinned upstream repositories rather than vendored copies. Install them as described in [`third_party/README.md`](third_party/README.md). No pretrained weights were used for ARNIQA-SNR or TOPIQ-NR-SNR.
 
+## Trained checkpoints
+
+The five-seed checkpoints are stored in three private Hugging Face model repositories:
+
+- [EPFL checkpoints](https://huggingface.co/lew96123/HSCF-KANet-EPFL)
+- [NFFA-EUROPE checkpoints](https://huggingface.co/lew96123/HSCF-KANet-NFFA)
+- [Biofilm checkpoints](https://huggingface.co/lew96123/HSCF-KANet-Biofilms)
+
+Authenticate with a Hugging Face account that has access, then download each repository into the dataset directory expected by the evaluation scripts:
+
+```bash
+hf auth login
+hf download lew96123/HSCF-KANet-EPFL --local-dir downloaded_models/EPFL
+hf download lew96123/HSCF-KANet-NFFA --local-dir downloaded_models/NFFA
+hf download lew96123/HSCF-KANet-Biofilms --local-dir downloaded_models/Biofilms
+```
+
+Each repository contains one top-level folder per architecture. This includes `ARNIQA_SNR/` and `TOPIQ_NR_SNR/`; neither SOTA architecture is nested under an additional `checkpoints/` directory.
+
 ## Dataset layout
 
 The PyTorch models expect the following split layout:

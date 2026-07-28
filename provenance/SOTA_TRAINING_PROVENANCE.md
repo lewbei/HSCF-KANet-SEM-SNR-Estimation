@@ -14,7 +14,7 @@
 
 | Repository | URL | Commit |
 |------------|-----|--------|
-| ARNIQA | https://github.com/miccunifi/ARNIQA | 66d16eb0ff1e1655872d32c0c233614a3922aaada |
+| ARNIQA | https://github.com/miccunifi/ARNIQA | 66d16eb0ff1e1655872d32c0c233614a3922aaad |
 | IQA-PyTorch (TOPIQ) | https://github.com/chaofengc/IQA-PyTorch | 18dd7a19694e94aac21019170e3f5e63d6b4e19e |
 
 ## Pretrained Weight Settings

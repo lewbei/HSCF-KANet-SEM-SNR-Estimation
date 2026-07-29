@@ -4,6 +4,8 @@ type: software
 title: "HSCF-KANet for Blind SNR Estimation in SEM Images"
 version: "2.0.0"
 date-released: 2026-07-28
+doi: "10.5281/zenodo.21661984"
+license: MIT
 authors:
   - family-names: Lew
     given-names: Kai Liang

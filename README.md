@@ -148,8 +148,8 @@ See [`results/README.md`](results/README.md) for the complete protocol and file 
 
 ## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Add the final journal DOI and archival code DOI once assigned.
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). The reserved archival code DOI is [10.5281/zenodo.21661984](https://doi.org/10.5281/zenodo.21661984). The final journal DOI will be added after publication.
 
 ## License
 
-No software license has been selected yet. Copyright remains with the authors until a license file is added.
+The software is released under the MIT License. See [`LICENSE`](LICENSE).
